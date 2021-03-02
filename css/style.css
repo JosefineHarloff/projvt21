@@ -1,1 +1,74 @@
-/* Denna fil skall innehålla din CSS kod */
+body {
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    background-color: black;
+
+}
+
+.Gridwrapper {
+    display: grid;
+    grid-template-areas: 
+    "di1 di1 di1 di1 di1 di1 di1"
+    "di2 di2 di2 di2 di3 di3 di3"
+    ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.inneGridWrapper {
+    grid-area: di1;
+    background-color: black;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    color: rgb(214, 174, 113);
+    height: 85px;
+    font-size: 9px;
+    letter-spacing: 2px;
+
+}
+
+h3 {
+    margin-top: -223px;
+    margin-left: 1050px;
+    margin-bottom: 191px;
+    font-size: 25px;
+}
+
+a:link {
+    color: rgb(211, 185, 115);
+    text-decoration: none;
+    background-color: black;
+}
+
+a:visited {
+    color:rgb(211, 185, 115);
+  }
+
+a:hover {
+    color: rgb(255, 255, 255);
+  }
+
+.nere {
+    grid-area: di2;
+    background-color: rgb(230, 204, 132);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 33px;
+    height: 550px;
+    margin-left: -190px;
+}
+
+.inneGirl {
+    grid-area: di3;
+ 
+}
+
+
+
+   
