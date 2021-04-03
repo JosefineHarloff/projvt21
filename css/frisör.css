@@ -2,7 +2,7 @@ body {
     margin: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 1px;
-    background-color: rgb(230, 204, 132);
+     background-color: black;  
 
 }
 
@@ -31,6 +31,8 @@ body {
     height: 85px;
     font-size: 9px;
     letter-spacing: 2px;
+    
+    
 
 }
 
@@ -62,45 +64,51 @@ a:hover {
       display:flex;
       justify-content: center;
       align-items: center;
-      background-color: rgb(231, 231, 230);
+      border-style: solid;
+      border-color: rgb(211, 185, 115);
+      width: 750px;
+      margin-left: 350px;
+      margin-top: 20px;
+      border-width: 6px;
 
   }
 
   .article2 {
     grid-area: ar2;
     width: 300px;
-    margin-top: -485px;
+    margin-top: -438px;
     margin-left: 590px;
     margin-bottom: 434px;
+    
+    
 }
 
 .OmOss {
     grid-area: di2;
-    background-color:  rgb(230, 204, 132);
     display:flex;
     justify-content: space-around;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
     text-align-last: center;
+    text-decoration: underline;
+    color: rgb(168, 130, 73);
+    background-color: black;
 }
 
 
 .Text {
     grid-area: di2;
-    background-color:  rgb(230, 204, 132);
     display:flex;
     justify-content: space-around;
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr;
-    text-align: center;
-    text-align-last: center;
-  
+    text-align-last: center;  
+    
 }
 
 .article3 {
     grid-area: ar3;
-    background-color: rgb(230, 204, 132);
     width: 400px;
     display:flex;
     text-align: center;
@@ -108,11 +116,15 @@ a:hover {
     justify-content: space-around;
     align-items: center;
     margin-left: 40px;
+    margin-top: -24px;
+    font-size: 12px;
+    line-height: 30px;
+    color: rgb(214, 174, 113);
+    background-color: black;   
 }
 
 .article4 {
     grid-area: ar4;
-    background-color: rgb(230, 204, 132);
     width: 400px;
     display:flex;
     text-align: center;
@@ -120,12 +132,15 @@ a:hover {
     justify-content: space-around;
     align-items: center;
     margin-left: 520px;
-    margin-top: -283px;
+    margin-top: -239px;
+    font-size: 12px;
+    line-height: 30px;
+    color: rgb(214, 174, 113);
+    background-color: black;
 }
 
 .article5 {
     grid-area: ar5;
-    background-color: rgb(230, 204, 132);
     width: 400px;
     display:flex;
     text-align: center;
@@ -133,5 +148,9 @@ a:hover {
     justify-content: space-around;
     align-items: center;
     margin-left: 1000px;
-    margin-top: -67px;
+    margin-top: -392px;
+    font-size: 12px;
+    line-height: 30px;
+    color: rgb(214, 174, 113);
+    background-color: black;
 }

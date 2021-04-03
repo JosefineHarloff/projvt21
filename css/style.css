@@ -6,6 +6,8 @@ body {
 
 }
 
+@media screen and (min-width: 768px) {
+
 .Gridwrapper {
     display: grid;
     grid-template-areas: 
@@ -17,7 +19,6 @@ body {
 
 .inneGridWrapper {
     grid-area: di1;
-    background-color: black;
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -53,7 +54,7 @@ a:hover {
 
 .nere {
     grid-area: di2;
-    background-color: rgb(230, 204, 132);
+    background-color: rgb(226, 184, 95);
     color: rgb(0, 0, 0);
     display: flex;
     justify-content: space-around;
@@ -61,11 +62,15 @@ a:hover {
     grid-template-columns: 1fr 1fr;
     grid-gap: 33px;
     height: 550px;
-    margin-left: -190px;
+    margin-left: -590px;
 }
 
 .inneGirl {
     grid-area: di3;
+    margin-left: -300px;
+    margin-top: 5px;
+    border-radius: 90%;
+
  
 }
 
@@ -76,9 +81,98 @@ a:hover {
     text-align-last: center;
     justify-content: space-around;
     align-items: center;
-    width: 700px;
-    margin-left: 400px;
+    width: 500px;
+    margin-left: 590px;
+    font-size: 12px;
+    letter-spacing: 2px;
     
+}
+}
+
+@media screen and (max-width: 767px) {
+
+    .Gridwrapper {
+        display: grid;
+        grid-template-areas: 
+        "di1 di1"
+        "di2 di3"
+        ;
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .inneGridWrapper {
+        grid-area: di1;
+
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+        color: rgb(214, 174, 113);
+        height: 85px;
+        font-size: 9px;
+        letter-spacing: 2px;
+        
+    
+    }
+    
+    h3 {
+        margin-top: -223px;
+        margin-left: 1050px;
+        margin-bottom: 191px;
+        font-size: 25px;
+    }
+    
+    a:link {
+        color: rgb(211, 185, 115);
+        text-decoration: none;
+        background-color: black;
+    }
+    
+    a:visited {
+        color:rgb(211, 185, 115);
+      }
+    
+    a:hover {
+        color: rgb(255, 255, 255);
+      }
+    
+    .nere {
+        grid-area: di2;
+        color: rgb(235, 235, 235);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 33px;
+        height: 550px;
+        margin-left: -590px;
+    }
+    
+    .inneGirl {
+        grid-area: di3;
+        margin-left: -300px;
+        margin-top: 5px;
+        
+
+     
+    }
+    
+    .inneText {
+        grid-area: di2;
+        display: flex;
+        text-align: center;
+        text-align-last: center;
+        justify-content: space-around;
+        align-items: center;
+        width: 500px;
+        margin-left: 590px;
+        font-size: 13px;
+        letter-spacing: 1px;
+        
+    }
+
+
 }
 
 

@@ -1,0 +1,118 @@
+body {
+    margin: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 1px;
+    background-color: rgb(226, 226, 226);
+
+}
+
+.Gridwrapper {
+    display: grid;
+    grid-template-areas: 
+    "di di di di di di di"
+    "ar1 ar1 ar1 ar2 ar2 ar2 ar2"
+    "ar1 ar1 ar1 ar2 ar2 ar2 ar2"
+    "fo fo fo fo fo fo fo"
+    "ar3 ar3 ar3 ar3 ar4 ar4 ar4"
+    "ar3 ar3 ar3 ar4 ar4 ar4 ar4"
+    ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.inneGridWrapper {
+    grid-area: di;
+    background-color: black;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+    color: rgb(214, 174, 113);
+    height: 85px;
+    font-size: 9px;
+    letter-spacing: 2px;
+
+}
+
+h3 {
+    margin-top: -223px;
+    margin-left: 1050px;
+    margin-bottom: 191px;
+    font-size: 25px;
+}
+
+a:link {
+    color: rgb(211, 185, 115);
+    text-decoration: none;
+    background-color: black;
+}
+
+a:visited {
+    color:rgb(211, 185, 115);
+  }
+
+a:hover {
+    color: rgb(255, 255, 255);
+  }
+
+
+.article1 {
+    grid-area: ar1;
+    background-color: rgb(230, 204, 132);
+    width: 500px;
+    margin-left: 150px;
+    margin-top: 90px;
+    height: 320px;
+    display: flex;
+    text-align: center;
+    text-align-last: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    border-style: solid;
+    font-size: 14px;
+  }
+
+.article2 {
+    grid-area: ar2;
+    background-color:rgb(230, 204, 132);
+    width: 500px;
+    margin-left: 800px;
+    margin-top: -332px;
+    height: 320px;
+    display: flex;
+    text-align: center;
+    text-align-last: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    border-width: 5px;
+    border-style: solid;
+    font-size: 14px;
+}
+
+.article3 {
+    grid-area: ar3;
+    display: grid;
+    margin-top: -100px;
+    margin-left: 330px;
+}
+
+.article4 {
+    grid-area: ar4;
+    display: grid;
+    margin-top: -70px;
+    margin-left: 984px;
+}
+
+.footer {
+    grid-area: fo;
+    background-color: black;
+    height: 95px;
+    margin-top: 170px;
+
+}
+
